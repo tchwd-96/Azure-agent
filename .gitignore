@@ -1,0 +1,26 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node dependencies and outputs
+node_modules/
+dist/
+.next/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+.azure/
+.codex/
+secrets/
+
+# Editors and OS
+.DS_Store
+.vscode/
