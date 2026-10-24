@@ -3,7 +3,7 @@
 **Fecha:** 24-10-2026
 **Repositorio:** `tchwd-96/Azure-agent`
 **Rama autorizada:** `feat/tchwd-azure-manager-bootstrap`
-**Commit de integración:** `7c3facb` (`feat(frontend): import TCHWD-DIR v0.1 prototype`)
+**Commit de integración:** `c81f2b9` (`feat(frontend): import TCHWD-DIR v0.1 prototype`)
 **Alcance:** incorporación del prototipo en `frontend/tchwd-dir/`, validación local y preparación de una recomendación. No se ha desplegado en Azure, fusionado ni abierto un pull request.
 
 ## Resultado
