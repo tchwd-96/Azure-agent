@@ -24,3 +24,6 @@ secrets/
 # Editors and OS
 .DS_Store
 .vscode/
+
+# TCHWD Cloud Shell evidence (local only)
+.tchwd-run/
