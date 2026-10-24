@@ -72,6 +72,7 @@ Referencias oficiales consultadas el 24-10-2026:
 - La hoja de estilos carga Inter desde Google Fonts; el estilo tipográfico depende de conectividad externa y tiene alternativa Arial.
 - El servidor Vite de desarrollo configura `host: 0.0.0.0`; no se debe exponer públicamente como servidor de producción.
 - No se verificó visualmente un viewport móvil en este entorno. El documento de QA incluye CSS responsive, pero eso no prueba la experiencia móvil.
+- `bwrap` no pudo crear un namespace (`Operation not permitted`); por tanto, las órdenes npm se ejecutaron en el workspace de esta sesión y no en un contenedor aislado independiente. Se revisaron los scripts antes de ejecutarlos; no se configuraron ni utilizaron credenciales de Azure.
 - El resultado no acredita compatibilidad de despliegue hasta añadir y probar un adaptador de hosting para App Service.
 - No se verificaron cuotas ni disponibilidad de recursos en una suscripción Azure. No se usaron credenciales Azure ni se hicieron llamadas a Azure.
 - No se generaron cargos de Azure ni se cambiaron recursos de producción.
